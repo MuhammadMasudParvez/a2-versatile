@@ -1,0 +1,83 @@
+/*------------------------------------------------------
+                Inter Font from Google Font
+------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+
+/*------------------------------------------------------
+                Common Styles
+------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*------------------------------------------------------
+                Header Container
+------------------------------------------------------*/
+.header-container {
+  width: 100%;
+  height: 715px;
+  background-color: black;
+  /* background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  ); */
+}
+.header-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------
+                Navigation Bar
+------------------------------------------------------*/
+.logo-text {
+  color: #e6533c;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 57px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  padding: 8px 20px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.125rem;
+  margin-right: 2.93rem;
+  padding: 8px 20px;
+  border-radius: 40px;
+}
+nav ul li a:hover {
+  background-color: #e6533c;
+}
+.first-nav a {
+  background-color: #e6533c;
+}
+.first-nav {
+  margin-left: -19px;
+}
+.last-nav {
+  margin-right: -67px;
+}
+
+.three-line {
+  color: #ffffff;
+  font-size: 1.2rem;
+  display: none;
+}

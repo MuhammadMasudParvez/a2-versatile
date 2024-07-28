@@ -9,23 +9,41 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 
+/* Miama Font */
+@font-face {
+  font-family: Miama;
+  src: url(../fonts/Miama.ttf);
+}
+
+/* Primary Button */
+.btn-primary {
+  padding: 1rem 2.5rem;
+  border-radius: 2.625rem;
+  background: #e6533c;
+  border: 2px solid #e6533c;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
+}
+.btn-outline {
+  background-color: black;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
 /*------------------------------------------------------
                 Header Container
 ------------------------------------------------------*/
 .header-container {
   width: 100%;
-  height: 715px;
   background-color: black;
-  /* background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  ); */
+  background-size: cover;
 }
+
 .header-section {
   width: 80%;
   margin: 0 auto;
@@ -80,4 +98,126 @@ nav ul li a:hover {
   color: #ffffff;
   font-size: 1.2rem;
   display: none;
+}
+
+/* Header Content */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.header-desc {
+  width: 520px;
+  margin-bottom: 77px;
+}
+.header-desc h2 {
+  color: #ffffff;
+  font-size: 4.75rem;
+  font-weight: 800;
+  line-height: 120%;
+  margin-top: 6rem;
+}
+.miama-font {
+  font-family: Miama;
+  font-weight: 100;
+  font-size: 9.5rem;
+}
+
+.header-desc p {
+  color: #ffffff80;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.header-img {
+  position: relative;
+}
+.header-img img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 206px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+}
+.box-1 {
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  right: -110px;
+}
+
+.box-2 {
+  position: absolute;
+  bottom: 190px;
+  right: 230px;
+}
+
+.img-box i,
+h2,
+p {
+  color: #ffffff;
+}
+.img-box i {
+  font-size: 2rem;
+  color: #e6533c;
+}
+.img-box h2 {
+  font-size: 1.5rem;
+}
+.img-box p {
+  font-size: 1rem;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+.box-1 h2 {
+  font-size: 2.5rem;
+}
+
+/*------------------------------------------------------
+                Change Your Habit Section
+------------------------------------------------------*/
+.habit-container {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.habit-box-section {
+  width: 80%;
+  display: flex;
+  margin-top: 70px;
+}
+
+.habit-desc h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+
+.habit-desc p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  text-align: center;
+  width: 660px;
+  margin-bottom: 3rem;
 }

@@ -199,12 +199,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.habit-box-section {
-  width: 80%;
-  display: flex;
-  margin-top: 70px;
+  padding-top: 100px;
 }
 
 .habit-desc h2 {
@@ -220,4 +215,39 @@ p {
   text-align: center;
   width: 660px;
   margin-bottom: 3rem;
+}
+
+.habit-box-section {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.habit-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.habit-box img {
+  width: 272px;
+  border-radius: 50%;
+}
+
+.habit-box h4 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.habit-box p {
+  color: #ffffff80;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 6px;
 }

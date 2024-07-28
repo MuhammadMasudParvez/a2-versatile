@@ -46,6 +46,17 @@
   .box-1 h2 {
     font-size: 1.8rem;
   }
+
+  /* Habit Section */
+  .habit-desc h2 {
+    font-size: 2rem;
+  }
+  .habit-desc p {
+    width: 316px;
+  }
+  .habit-box-section {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 577px) {

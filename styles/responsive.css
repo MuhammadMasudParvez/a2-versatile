@@ -55,14 +55,33 @@
     width: 316px;
   }
   .habit-box-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .extra-mile-content {
     flex-direction: column;
+    margin: 1rem;
+  }
+
+  .extra-mile-desc > .btn-primary {
+    width: 100%;
+  }
+  .extra-mile-desc h2 {
+    font-size: 2rem;
+  }
+  .extra-mile-desc p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .extra-mile-desc,
+  .img-div {
+    width: 100%;
+  }
+  .img-div {
+    margin-top: 2rem;
   }
 }
 
 @media screen and (max-width: 992px) and (min-width: 577px) {
-  .header-container {
-    background-color: aqua;
-  }
   nav {
     padding-top: 50px;
   }
@@ -71,5 +90,24 @@
   }
   .header-section {
     width: 95%;
+  }
+  .header-content {
+    flex-direction: column;
+  }
+  .habit-box-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img-box {
+    display: none;
+  }
+  .extra-mile-desc h2 {
+    font-size: 36px;
+  }
+  .extra-mile-desc p {
+    font-size: 0.8rem;
+  }
+  .img-div {
+    height: 300px;
+    width: 300px;
   }
 }

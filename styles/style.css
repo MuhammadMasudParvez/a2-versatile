@@ -10,6 +10,8 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
 }
 
 /* Miama Font */
@@ -219,7 +221,8 @@ p {
 
 .habit-box-section {
   width: 80%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -234,7 +237,7 @@ p {
 }
 
 .habit-box img {
-  width: 272px;
+  width: 90%;
   border-radius: 50%;
 }
 
@@ -250,4 +253,118 @@ p {
   font-size: 14px;
   text-align: center;
   margin-top: 6px;
+}
+
+/*------------------------------------------------------
+                Run Extra Mile Section
+------------------------------------------------------*/
+
+.extra-mile-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.extra-mile-content {
+  display: flex;
+  width: 80%;
+  border-radius: 1rem;
+  background: #222222;
+  padding: 30px 32px 30px 50px;
+  justify-content: space-between;
+}
+.extra-mile-desc {
+  width: 60%;
+}
+.extra-mile-desc h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.extra-mile-desc p {
+  color: #ffffff80;
+  font-size: 1rem;
+  width: 70%;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.img-div {
+  width: 30%;
+  background-image: url(../images/run.jpg);
+  background-size: cover;
+  border-radius: 18px;
+  background-position: center;
+}
+.img-div img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+/*------------------------------------------------------
+               BMI Calculator Mile Section
+------------------------------------------------------*/
+.bmi-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bmi-content {
+}
+.bmi-content > h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.bmi-content > p {
+  color: #ffffff80;
+  font-size: 1rem;
+}
+
+.bmi-calculator {
+  background: #222222;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calcu-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid red;
+}
+.cal-left {
+}
+.cal-right {
+}
+.cal-chart {
+}
+.cal-bmi {
+  width: 50%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border: 1px solid #ffffff1a;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 13px 18px;
+  width: 200px;
+}
+td {
+  border: 1px solid #ffffff1a;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 13px 18px;
 }

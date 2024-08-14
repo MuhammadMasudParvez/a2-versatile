@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
-  color: #ffffff;
+  /* color: #ffffff; */
   box-sizing: border-box;
 }
 
@@ -204,14 +204,16 @@ p {
   padding-top: 100px;
 }
 
-.habit-desc h2 {
+.habit-desc,
+.our-team-content h2 {
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
   margin-bottom: 0.8rem;
 }
 
-.habit-desc p {
+.habit-desc,
+.our-team-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   text-align: center;
@@ -313,17 +315,22 @@ p {
   flex-direction: column;
 }
 .bmi-content {
+  width: 100%;
 }
 .bmi-content > h1 {
   color: #ffffff;
   font-size: 3rem;
   font-weight: 900;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
 }
 .bmi-content > p {
   color: #ffffff80;
   font-size: 1rem;
+  width: 671px;
+  margin-bottom: 6rem;
+  margin: 0 auto;
 }
-
 .bmi-calculator {
   background: #222222;
   width: 100%;
@@ -336,13 +343,29 @@ p {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  border: 1px solid red;
 }
 .cal-left {
+  margin-top: 4rem;
 }
 .cal-right {
+  margin-top: 4rem;
 }
-.cal-chart {
+.cal-chart > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+}
+.bmi-cal-title {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.cal-bmi > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 .cal-bmi {
   width: 50%;
@@ -367,4 +390,64 @@ td {
   font-size: 1rem;
   font-weight: 500;
   padding: 13px 18px;
+}
+
+.cal-cell {
+  width: 577px;
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+.gender {
+  width: 49.5%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.gender {
+  width: 49.5%;
+  background-color: #393939;
+}
+
+.cal-cell-full {
+  width: 577px;
+}
+.activity-factor {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/*------------------------------------------------------
+              Our Team Section
+------------------------------------------------------*/
+.our-team {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-team-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-team-content > h2 {
+  margin-top: 5.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.member-1 {
+  background-image: ;
 }

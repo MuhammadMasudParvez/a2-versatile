@@ -79,6 +79,43 @@
   .img-div {
     margin-top: 2rem;
   }
+
+  .bmi-content > h1 {
+    font-size: 2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  .bmi-content > p {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .calcu-content {
+    flex-direction: column;
+  }
+  .bmi-content > h1 {
+    font-size: 2rem;
+    margin-left: 150px;
+  }
+  .bmi-content > p {
+    margin-left: 150px;
+  }
+  .cal-cell,
+  .cal-cell-full {
+    width: 353px;
+  }
+  input[type="text"],
+  .gender {
+    width: 45%;
+  }
+  .activity-factor {
+    width: 90%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
 }
 
 @media screen and (max-width: 992px) and (min-width: 577px) {

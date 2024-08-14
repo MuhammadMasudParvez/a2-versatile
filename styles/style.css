@@ -204,15 +204,17 @@ p {
   padding-top: 100px;
 }
 
-.habit-desc,
-.our-team-content h2 {
+.habit-desc h2,
+.our-team-content h2,
+.bmi-content h1 {
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
   margin-bottom: 0.8rem;
 }
 
-.habit-desc,
+.habit-desc p,
+.bmi-content p,
 .our-team-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -448,6 +450,138 @@ input[type="text"],
   margin-bottom: 0.9rem;
 }
 
+.team-member-boxes {
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.member {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
 .member-1 {
-  background-image: ;
+  background-image: url(../images/trainer1.png);
+}
+.member-2 {
+  background-image: url(../images/trainer2.png);
+}
+.member-3 {
+  background-image: url(../images/trainer3.png);
+}
+.member-4 {
+  background-image: url(../images/trainer4.png);
+}
+.member-5 {
+  background-image: url(../images/trainer5.png);
+}
+.member-6 {
+  background-image: url(../images/trainer6.png);
+}
+.member-name {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+.member-position {
+  font-size: 0.8rem;
+  color: #ffffffa2;
+}
+.member-name,
+.member-position {
+  position: relative;
+  bottom: -210px;
+  right: -20px;
+}
+
+/*------------------------------------------------------
+              Our Team Section
+------------------------------------------------------*/
+
+.footer-container {
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.title-desc > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  width: 450px;
+}
+
+.title-desc {
+  width: 50%;
+}
+.left-menu,
+.right-menu {
+  width: 25%;
+}
+.left-menu > h2,
+.right-menu > h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+.right-menu ul li,
+.left-menu ul li {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+.left-menu > ul > li > a,
+.right-menu > ul > li > a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+}
+
+.footer-logo {
+  color: rgb(230, 83, 60);
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.left-right-footer-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+hr {
+  width: 80%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2rem;
+}
+
+.all-right {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }

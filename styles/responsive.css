@@ -84,6 +84,7 @@
     font-size: 2rem;
     margin-top: 2.2rem;
     margin-bottom: 1rem;
+    text-align: left;
   }
   .bmi-content > p {
     margin: 0 auto;
@@ -95,10 +96,15 @@
   }
   .bmi-content > h1 {
     font-size: 2rem;
-    margin-left: 150px;
+    width: 80%;
+    border: 1px solid red;
+    text-align: left;
+    margin-left: 20px;
   }
   .bmi-content > p {
-    margin-left: 150px;
+    margin-left: 20px;
+    width: 80%;
+    text-align: left;
   }
   .cal-cell,
   .cal-cell-full {
@@ -115,6 +121,47 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
+  }
+  .our-team-content > h2 {
+    font-size: 2rem;
+  }
+  .our-team-content > p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .team-member-boxes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Footer Section */
+  .footer-content {
+    flex-direction: column;
+  }
+  .left-right-footer-menu {
+    flex-direction: column;
+  }
+  .footer-logo {
+    font-size: 70px;
+  }
+  .title-desc > p {
+    font-size: 0.9rem;
+    width: 250px;
+    margin-bottom: 2rem;
+  }
+  .left-menu > h2,
+  .right-menu > h2 {
+    font-size: 2rem;
+    width: 250px;
+  }
+  .left-menu > ul > li > a,
+  .right-menu > ul > li > a {
+    font-size: 1.5rem;
+  }
+  .right-menu ul li,
+  .left-menu ul li {
+    width: 250px;
+  }
+  .all-right {
+    font-size: 1rem;
   }
 }
 

@@ -47,6 +47,10 @@
     font-size: 1.8rem;
   }
 
+  .header-img {
+    bottom: 0;
+  }
+
   /* Habit Section */
   .habit-desc h2 {
     font-size: 2rem;
@@ -131,6 +135,22 @@
   .team-member-boxes {
     grid-template-columns: repeat(1, 1fr);
     height: 2000px;
+  }
+
+  .member-name {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff;
+  }
+  .member-position {
+    font-size: 1rem;
+    color: #ffffffa2;
+  }
+  .member-name,
+  .member-position {
+    position: relative;
+    bottom: -220px;
+    right: -30px;
   }
   /* Footer Section */
   .footer-content {

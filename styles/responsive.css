@@ -103,11 +103,13 @@
     width: 80%;
     text-align: left;
     margin-left: 20px;
+    margin-right: 0;
   }
   .bmi-content > p {
     margin-left: 20px;
     width: 80%;
     text-align: left;
+    margin-right: 0;
   }
   .cal-cell,
   .cal-cell-full {

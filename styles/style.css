@@ -314,7 +314,7 @@ p {
 }
 .img-div {
   width: 30%;
-  background-image: url(../images/run.jpg);
+  /* background-image: url(../images/run.jpg); */
   background-size: cover;
   border-radius: 18px;
   background-position: center;

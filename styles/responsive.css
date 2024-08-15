@@ -124,6 +124,10 @@
     text-align: left;
     margin-right: 0;
   }
+  .bmi-cal-title,
+  .cal-bmi > p {
+    width: 300px;
+  }
   .cal-cell,
   .cal-cell-full {
     width: 353px;

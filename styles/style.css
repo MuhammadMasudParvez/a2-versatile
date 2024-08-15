@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 .btn-outline {
-  background-color: black;
+  background-color: #101010;
   border: 2px solid #ffffff;
   color: #ffffff;
 }
@@ -221,6 +221,7 @@ p {
 }
 
 .habit-desc h2,
+.limit-content h1,
 .our-team-content h2,
 .bmi-content h1 {
   font-size: 3rem;
@@ -231,6 +232,7 @@ p {
 
 .habit-desc p,
 .bmi-content p,
+.limit-content p,
 .our-team-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -320,6 +322,56 @@ p {
 .img-div img {
   width: 100%;
   border-radius: 18px;
+}
+/*------------------------------------------------------
+               Limit Forward Section
+------------------------------------------------------*/
+.limit-forward {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.limit-content h1 {
+  color: #ffffff;
+  margin-top: 6rem;
+}
+.limit-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 5rem;
+  gap: 1rem;
+}
+.limit-box {
+  width: 350px;
+  height: 300px;
+  padding: 30px 20px;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.limit-box > h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.limit-box > p {
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 /*------------------------------------------------------

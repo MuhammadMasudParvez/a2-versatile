@@ -59,10 +59,12 @@
   }
 
   /* Habit Section */
-  .habit-desc h2 {
+  .habit-desc h2,
+  .limit-content h1 {
     font-size: 2rem;
   }
-  .habit-desc p {
+  .habit-desc p,
+  .limit-content p {
     width: 316px;
   }
   .habit-box-section {
@@ -89,6 +91,10 @@
   }
   .img-div {
     margin-top: 2rem;
+  }
+
+  .limit-boxes {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .bmi-content > h1 {

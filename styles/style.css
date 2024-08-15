@@ -149,7 +149,8 @@ nav ul li a:hover {
 
 .header-img {
   position: relative;
-  bottom: -128px;
+  width: 450px;
+  right: 45px;
 }
 .header-img img {
   width: 100%;

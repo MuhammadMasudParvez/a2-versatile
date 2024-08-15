@@ -5,6 +5,10 @@
   .three-line {
     display: block;
   }
+  .header-img {
+    width: 100%;
+    left: 20px;
+  }
   .header-content {
     flex-direction: column;
   }
@@ -23,15 +27,18 @@
     padding: 10px 0;
   }
   .img-box {
-    padding: 5px 4px;
+    padding: 20px 5px;
+    width: 145px;
   }
   .box-1 {
     top: 65px;
     right: -25px;
+    left: 200px;
   }
   .box-2 {
     bottom: 190px;
     right: 75px;
+    left: -15px;
   }
   .img-box i {
     font-size: 2rem;

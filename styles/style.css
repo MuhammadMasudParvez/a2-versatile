@@ -313,8 +313,10 @@ p {
   margin-bottom: 2rem;
 }
 .img-div {
-  width: 30%;
-  /* background-image: url(../images/run.jpg); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
   background-size: cover;
   border-radius: 18px;
   background-position: center;
@@ -343,6 +345,7 @@ p {
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin: 0 auto;
 }
 .limit-content h1 {
   color: #ffffff;
@@ -355,8 +358,7 @@ p {
   gap: 1rem;
 }
 .limit-box {
-  width: 350px;
-  height: 300px;
+  height: 18.5rem;
   padding: 30px 20px;
   background-color: #333333;
   display: flex;
@@ -393,6 +395,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 .bmi-content > h1 {
   color: #ffffff;
@@ -400,7 +403,6 @@ p {
   font-weight: 900;
   margin-top: 4rem;
   margin-bottom: 1rem;
-  margin-right: 450px;
 }
 .bmi-content > p {
   color: #ffffff80;
@@ -408,7 +410,6 @@ p {
   width: 671px;
   margin: 0 auto;
   margin-bottom: 6rem;
-  margin-right: 705px;
   text-align: left;
 }
 .bmi-calculator {
@@ -423,6 +424,7 @@ p {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  gap: 2rem;
 }
 .cal-left {
   margin-top: 4rem;

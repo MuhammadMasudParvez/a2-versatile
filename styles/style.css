@@ -333,6 +333,9 @@ p {
   justify-content: center;
   align-items: center;
 }
+.limit-section {
+  width: 80%;
+}
 
 .limit-content {
   display: flex;

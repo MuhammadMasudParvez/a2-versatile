@@ -205,7 +205,7 @@
     padding-top: 50px;
   }
   nav ul li a {
-    margin-right: 20px;
+    margin-right: 40px;
   }
   .header-section {
     width: 95%;
@@ -226,7 +226,37 @@
     font-size: 0.8rem;
   }
   .img-div {
-    height: 300px;
     width: 300px;
+  }
+
+  /* Limit Forward */
+  .limit-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .calcu-content {
+    flex-direction: column;
+  }
+
+  .team-member-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .member-name {
+    font-size: 1.7rem;
+  }
+  .member-name,
+  .member-position {
+    bottom: -230px;
+    right: -10px;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .left-right-footer-menu {
+    margin-top: 20px;
+  }
+  .left-menu,
+  .right-menu {
+    width: 100%;
   }
 }

@@ -303,23 +303,26 @@ p {
 .extra-mile-desc h2 {
   font-size: 3rem;
   font-weight: 900;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .extra-mile-desc p {
   color: #ffffff80;
   font-size: 1rem;
   width: 70%;
   line-height: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .img-div {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 35%;
-  background-size: cover;
   border-radius: 18px;
-  background-position: center;
+  overflow: hidden;
+}
+.img-zoom-div {
+  transform: scale(3);
+  transform-origin: 69% 26%;
 }
 .img-div img {
   width: 100%;
